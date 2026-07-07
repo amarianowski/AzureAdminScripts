@@ -17,7 +17,6 @@ $ResourceGroups = @(
 )
 
 foreach ($ResourceGroup in $ResourceGroups) {
-
     try {
         New-AzResourceGroup `
             -Name $ResourceGroup.Name `
